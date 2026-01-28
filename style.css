@@ -302,6 +302,7 @@ main .secondary_info {
   }
   float: left;
   padding: 5em 50em 0 6em;
+  height: 400px;
   width: 100%;
   background-color: var(--bg-white);
 }
