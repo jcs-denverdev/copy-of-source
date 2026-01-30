@@ -293,7 +293,7 @@ main .secondary_info {
     display: none;
   }
   float: left;
-  padding: 3em;
+  padding: 5em 0 0 6em;
   width: 50%;
 }
 
