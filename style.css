@@ -272,8 +272,13 @@ main .feature-section {
   font-size: 2.5em;
 }
 
+.features .arrow-right {
+  font-size: 1em;
+  color: var(--primary-blue);
+}
+
 .features a {
-  color: var(--txt-color);
+  color: var(--primary-blue);
   font-weight: bold;
   text-decoration: none;
 }
