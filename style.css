@@ -257,23 +257,23 @@ main .feature-section {
     display: none;
   }
 
-  background-color: aqua;
+  margin: 1em;
 }
 
 .features {
   width: 25%;
-  /* float: left; */
+  float: left;
   background-color: var(--bg-main);
   padding: 1em 2em;
   border: 1px solid black;
 }
 
 .features i {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .features a {
-  color: rgb(50, 62, 77);
+  color: var(--txt-color);
   font-weight: bold;
   text-decoration: none;
 }
