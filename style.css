@@ -256,44 +256,28 @@ main .feature-section {
   @media (max-width: 980px) {
     display: none;
   }
+
+  background-color: aqua;
 }
 
-.features section {
+.features {
   width: 25%;
-  height: 232px;
-  float: left;
-  background-color: rgb(246, 249, 252);
-  padding: 20px 70px 30px;
+  /* float: left; */
+  background-color: var(--bg-main);
+  padding: 1em 2em;
   border: 1px solid black;
 }
 
-.features section h3 {
-  font-size: 2rem;
+.features i {
+  font-size: 3em;
 }
 
-.features section p, .features section a, .features + section p {
-  font-size: 1.5rem;
-}
-
-.features img {
-  width: 15%;
-}
-
-.features section a {
+.features a {
   color: rgb(50, 62, 77);
   font-weight: bold;
   text-decoration: none;
 }
 
-.features + section {
-  float: left;
-  margin: 20px 300px 30px 100px;
-  padding-right: 570px;
-}
-
-.features + section > h2 {
-  font-size: 2.5em;
-}
 
 /******************************************
 /* MAIN -- SECONDARY INFO
