@@ -159,12 +159,12 @@ main .intro {
 
 main .intro_tagline-heading {
   padding: 2em;
-  background-color: bisque;
 
   @media (min-width: 981px) {
     float: left;
     width: 50%;
     padding-left: 8em;
+    border: 1px solid black;
   }
 }
 
@@ -178,7 +178,7 @@ main .intro_tagline-heading {
   margin-top: 2em;
 }
 
-main section h1 {
+.intro_tagline-heading h1 {
   margin-top: .6em;
   font-size: 3.5rem;
   width: 60%;
@@ -188,12 +188,27 @@ main section h1 {
   }
 }
 
+.intro_tagline-heading div {
+
+}
+
+.intro_tagline-heading div form {
+
+  @media (min-width: 981px) {
+    float: left;
+  }
+}
+
 .intro_tagline-heading form input {
   background-color: var(--searchbox-bg);
   border: none;
   padding: 1em;
   color: var(--bg-main);
   font-size: 1.5em;
+
+  @media (min-width: 981px) {
+    width: 70%;
+  }
 }
 
 #intro_button {
@@ -207,7 +222,9 @@ main section h1 {
   color: white;
 
   @media (min-width: 981px) {
-    
+    float: left;
+    padding: .75em;
+    width: 20%;
   }
 }
 
