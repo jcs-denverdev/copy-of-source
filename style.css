@@ -172,7 +172,7 @@ main .intro_tagline-heading {
   display: block;
   color: var(--txt-color);
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 600;
   letter-spacing: .1em;
   margin-top: 2em;
@@ -185,7 +185,6 @@ main section h1 {
 
   @media (min-width: 981px) {
     width: 100%;
-    background-color: rgb(138, 138, 221);
   }
 }
 
@@ -206,6 +205,10 @@ main section h1 {
   border: none;
   background-color: var(--primary-blue);
   color: white;
+
+  @media (min-width: 981px) {
+    
+  }
 }
 
 .intro_tagline-heading p {
