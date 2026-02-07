@@ -222,7 +222,9 @@ main section h1 {
 }
 
 .img-container_intro img {
-  
+  @media (min-width: 981px) {
+    width: 100%;
+  }
 }
 
 /******************************************
