@@ -57,7 +57,7 @@ header {
   }
 
   @media (min-width: 981px) {
-    
+    height: 70px;
   }
 }
 
@@ -150,10 +150,20 @@ header nav ul li {
 
 main .intro {
   background-color: var(--bg-main);
+
+  @media (min-width: 981px) {
+    float: left;
+  }
 }
 
 main .intro_tagline-heading {
   padding: 2em;
+  background-color: bisque;
+
+  @media (min-width: 981px) {
+    float: left;
+    width: 50%;
+  }
 }
 
 .intro_tagline-heading span {
@@ -198,6 +208,10 @@ main section h1 {
 .img-container_intro {
   padding-left: 1.4em;
   padding: 0 0 5em 1.4em;
+  @media (min-width: 981px) {
+    float: left;
+    width: 50%;
+  }
 }
 
 /******************************************
