@@ -81,7 +81,6 @@ header .hamburger-container {
   margin: 0 auto;
 
   @media (min-width: 981px) {
-    background-color: #f08787;
     float: left;
     width: 20%;
   }
@@ -109,7 +108,6 @@ header nav, .btn-container {
 
 header nav {
   @media (min-width: 981px) {
-    background-color: #6fc978;
     float: left;
     width: 60%;
   }
@@ -118,16 +116,17 @@ header nav {
 header nav ul {
   padding-inline-start: 0;
   /* width: 80%; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 header nav ul li {
   @media (min-width: 981px) {
     float: left;
+    width: 25%;
     list-style: none;
     font-size: 2em;
     padding: .5em;
-    background-color: rgb(96, 227, 227);
+    text-align: center;
   }
 }
 
