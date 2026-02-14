@@ -53,19 +53,21 @@ header {
   background-color: var(--bg-main);
   padding: 2em;
 
-  @media (max-width: 800px) {
+  @media (max-width: 980px) {
     border-bottom: 2px solid rgb(232, 236, 242);
   }
 
-  @media (min-width: 801px) {
+  @media (min-width: 981px) {
     background-color: bisque;
   }
 }
 
 header .hamburger-container {
-  float: left;
+  @media (max-width: 980px) {
+    float: left;
+  }
 
-  @media (min-width: 801px) {
+  @media (min-width: 981px) {
     display: none;
   }
 }
@@ -79,7 +81,7 @@ header .hamburger-container {
   width: 50%;
   margin: 0 auto;
 
-  @media (min-width: 801px) {
+  @media (min-width: 981px) {
     background-color: #fff;
     float: left;
     width: 30%;
@@ -91,44 +93,48 @@ header .hamburger-container {
   margin: 0;
   font-size: 3em;
 
-  @media (max-width: 800px) {
+  @media (max-width: 980px) {
     text-align: center;
   }
-  @media (min-width: 801px) {
+  @media (min-width: 981px) {
     margin-left: 1em;
   }
 }
 
 header nav, .btn-container {
-  @media (max-width: 800px) {
+  @media (max-width: 980px) {
     display: none;
   }
 
+  /* @media (min-width: 981px) {
+    background-color: #fff;
+    float: left;
+    width: 30%;
+  } */
 }
 
 header nav ul li {
-  @media (min-width: 801px) {
-    float: left;
+  @media (min-width: 981px) {
+    /* float: left; */
     list-style: none;
     font-size: 2em;
-    padding: 1em;
+    padding: .5em;
   }
 }
 
 .btn-container {
-  float: left;
-  width: 25%; /* equal to 360px on laptop */
-  height: 100px;
-  text-align: center;
+  float: right;
+  background-color: rgba(202, 152, 117, 0.561);
+  width: 30%;
 }
 
 .btn-container > button {
-  height: 35px;
-  width: 100px;
-  margin: 15px 0 0 190px;
+  margin-right: 2em;
+  padding: .8em 1.7em;
+  float: right;
   border: none;
-  background-color: rgb(58, 72, 89);
-  color: white;
+  background-color: var(--primary-blue);
+  color: var(--bg-white);
 }
 
 /******************************************
@@ -192,7 +198,7 @@ main section h1 {
 /*******************************************/
 
 main .feature-section {
-  @media (max-width: 800px) {
+  @media (max-width: 980px) {
     display: none;
   }
 }
@@ -239,13 +245,13 @@ main .feature-section {
 /*******************************************/
 
 main .secondary_info {
-  @media (max-width: 800px) {
+  @media (max-width: 980px) {
     display: none;
   }
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
 
   main > #taglineSection {
     padding: 50px 15px;
