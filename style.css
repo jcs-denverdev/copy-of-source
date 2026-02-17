@@ -53,13 +53,21 @@ header {
   background-color: var(--bg-main);
   padding: 2em;
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     border-bottom: 2px solid rgb(232, 236, 242);
+  }
+
+  @media (min-width: 801px) {
+    background-color: bisque;
   }
 }
 
 header .hamburger-container {
   float: left;
+
+  @media (min-width: 801px) {
+    display: none;
+  }
 }
 
 .hamburger-container i {
@@ -70,6 +78,12 @@ header .hamburger-container {
 .header_h2-container {
   width: 50%;
   margin: 0 auto;
+
+  @media (min-width: 801px) {
+    background-color: #fff;
+    float: left;
+  }
+
 }
 
 .header_h2-container h2 {
@@ -79,7 +93,7 @@ header .hamburger-container {
 }
 
 header nav, .btn-container {
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     display: none;
   }
 }
@@ -161,7 +175,7 @@ main section h1 {
 /*******************************************/
 
 main .feature-section {
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     display: none;
   }
 }
@@ -208,13 +222,13 @@ main .feature-section {
 /*******************************************/
 
 main .secondary_info {
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     display: none;
   }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   main > #taglineSection {
     padding: 50px 15px;
