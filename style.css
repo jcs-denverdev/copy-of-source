@@ -105,7 +105,7 @@ header nav, .btn-container {
 /*******************************************/
 
 main .intro {
-  background-color: bisque;
+  background-color: var(--bg-main);
 }
 
 main .intro_tagline-heading {
@@ -151,9 +151,20 @@ main section h1 {
   font-size: 2em;
 }
 
+.img-container_intro {
+  padding-left: 1.4em;
+  padding: 0 0 5em 1.4em;
+}
+
 /******************************************
 /* MAIN -- FEATURES
 /*******************************************/
+
+main .feature-section {
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
 
 .features section {
   width: 25%;
@@ -190,6 +201,16 @@ main section h1 {
 
 .features + section > h2 {
   font-size: 2.5em;
+}
+
+/******************************************
+/* MAIN -- SECONDARY INFO
+/*******************************************/
+
+main .secondary_info {
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 
