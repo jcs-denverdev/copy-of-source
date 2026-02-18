@@ -128,12 +128,12 @@ main section h1 {
   width: 60%;
 }
 
-main section form input {
-  background-color: rgb(227, 232, 239);
+.intro_tagline-heading form input {
+  background-color: var(--searchbox-bg);
   border: none;
-  padding: 10px;
-  width: 250px;
-  color: rgb(157, 169, 181);
+  padding: 1em;
+  color: var(--bg-main);
+  font-size: 1.5em;
 }
 
 #intro_button {
@@ -150,6 +150,10 @@ main section form input {
 .intro_tagline-heading p {
   font-size: 2em;
 }
+
+/******************************************
+/* MAIN -- FEATURES
+/*******************************************/
 
 .features section {
   width: 25%;
