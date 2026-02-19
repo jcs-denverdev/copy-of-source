@@ -136,25 +136,19 @@ main section form input {
   color: rgb(157, 169, 181);
 }
 
-main > section p {
-  font-size: 1.5rem;
-}
-
-#fieldControl {
-  float: left;
-}
-
-main section button {
-  height: 35.5px;
-  width: 70px;
+#intro_button {
+  padding: 1em;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: .05em;
+  font-size: 1.8em;
   border: none;
-  background-color: rgb(58, 72, 89);
+  background-color: var(--primary-blue);
   color: white;
 }
 
-main section p {
-  width: 300px;
-  padding-top: 20px;
+.intro_tagline-heading p {
+  font-size: 2em;
 }
 
 .features section {
