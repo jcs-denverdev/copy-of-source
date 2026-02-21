@@ -24,7 +24,7 @@
 html {
   font-size: 62.5%;
   --bg-main: rgb(246,249,252);
-  --bg-white: rgb(255,255,255);
+  --bg-white: rgb(255, 255, 255);
   --txt-color: rgb(130,152,172);
   --primary-blue: rgb(44,68,88);
   --searchbox-bg: rgb(226,234,240);
@@ -32,6 +32,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2, h1, h3 {
@@ -50,10 +51,10 @@ p {
 header {
   /* float: left; */
   background-color: var(--bg-main);
-  padding: 1em;
+  padding: 2em;
 
-  @media (max-width: 500px) {
-    border-bottom: 1px solid rgb(232, 236, 242);
+  @media (max-width: 600px) {
+    border-bottom: 2px solid rgb(232, 236, 242);
   }
 }
 
@@ -63,6 +64,7 @@ header .hamburger-container {
 
 .hamburger-container i {
   font-size: 2.5em;
+  padding-top: .2em;
 }
 
 .header_h2-container {
@@ -73,11 +75,11 @@ header .hamburger-container {
 .header_h2-container h2 {
   text-align: center;
   margin: 0;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 header nav, .btn-container {
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     display: none;
   }
 }
@@ -98,15 +100,19 @@ header nav, .btn-container {
   color: white;
 }
 
-main > section {
-  float: left;
-  width: 50%;
-  height: 686px;
-  background-color: rgb(246, 249, 252);
+/******************************************
+/* MAIN
+/*******************************************/
+
+main .intro {
+  background-color: bisque;
+  padding: 2em;
 }
 
-main > #taglineSection {
-  padding: 100px;
+.intro span {
+  text-transform: uppercase;
+  font-size: 1.5em;
+
 }
 
 main section h1 {
@@ -181,7 +187,7 @@ main section p {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
   main > #taglineSection {
     padding: 50px 15px;
