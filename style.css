@@ -34,13 +34,13 @@ body {
   margin: 0;
 }
 
-header h1, h2, h3 {
-  color: rgb(50, 62, 77);
+h2, h1, h3 {
+  color: var(--primary-blue);
   font-weight: bold;
 }
 
 p {
-  color: rgb(111, 123, 137);
+  color: var(--txt-color);
 }
 
 /******************************************
@@ -48,16 +48,34 @@ p {
 /*******************************************/
 
 header {
-  float: left;
+  /* float: left; */
   background-color: var(--bg-main);
+  padding: 1em;
 
   @media (max-width: 500px) {
     border-bottom: 1px solid rgb(232, 236, 242);
   }
 }
 
-header nav, .btn-container {
+header .hamburger-container {
+  float: left;
+}
 
+.hamburger-container i {
+  font-size: 2.5em;
+}
+
+/* .header_h2-container {
+  width: 100%;
+} */
+
+.header_h2-container h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header nav, .btn-container {
   @media (max-width: 500px) {
     display: none;
   }
@@ -209,7 +227,4 @@ header nav, .btn-container {
       width: 100%;
     }
   
-
-
-
   }
