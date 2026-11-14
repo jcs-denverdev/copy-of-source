@@ -224,6 +224,7 @@ main .intro_tagline-heading {
   @media (min-width: 981px) {
     float: left;
     padding: .75em;
+    margin: 0;
     width: 30%;
   }
 }
