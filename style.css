@@ -191,6 +191,8 @@ main .intro_tagline-heading {
 
 .intro_tagline-heading div form {
 
+  
+
   @media (min-width: 981px) {
     float: left;
     width: 70%;
@@ -203,6 +205,7 @@ main .intro_tagline-heading {
   padding: 1em;
   color: var(--bg-main);
   font-size: 1.5em;
+  width: 100%;
 
   @media (min-width: 981px) {
     width: 100%;
@@ -218,6 +221,8 @@ main .intro_tagline-heading {
   border: none;
   background-color: var(--primary-blue);
   color: white;
+  width: 100%;
+  margin-top: 1em;
 
   @media (min-width: 981px) {
     float: left;
